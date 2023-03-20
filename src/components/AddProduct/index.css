@@ -1,0 +1,30 @@
+.product-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+    width: 25%;
+    box-shadow: 1px 4px 4px;
+    flex: 0px 1px 1px;
+}
+.product-header{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.header-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.product-input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   align-items: center;
+   padding: 10px;
+}
+.product-input{
+    width: 100%;
+}
